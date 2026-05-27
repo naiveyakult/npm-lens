@@ -129,6 +129,16 @@ function buildFallbackRisks(nextSummary) {
     risks.push('当前样本中没有发现同包多版本实例。')
   }
 
+  if (nextSummary?.duplicatePackages?.length > 0) {
+    const examples = nextSummary.duplicatePackages
+      .slice(0, 5)
+      .map((item) => `${item.name}(${item.count}次)`)
+      .join('、')
+    risks.push(`发现 ${nextSummary.duplicatePackages.length} 个包重复出现在多条依赖路径中，例如 ${examples}。这不等同于循环依赖。`)
+  } else {
+    risks.push('当前样本中没有发现同名包重复出现在多条依赖路径中。')
+  }
+
   if (nextSummary?.missingCount > 0) {
     risks.push(`有 ${nextSummary.missingCount} 个依赖缺少 node_modules 元数据，分析可能不完整。`)
   }

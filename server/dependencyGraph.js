@@ -96,6 +96,7 @@ export function summarizeGraph(graph) {
   const licenses = new Map()
   const dependencyTypes = new Map()
   const versionsByName = new Map()
+  const occurrencesByName = new Map()
   let circularCount = 0
   let missingCount = 0
   let maxDepth = 0
@@ -124,6 +125,7 @@ export function summarizeGraph(graph) {
       })
       licenses.set(license, (licenses.get(license) || 0) + 1)
       dependencyTypes.set(dependencyType, (dependencyTypes.get(dependencyType) || 0) + 1)
+      occurrencesByName.set(name, (occurrencesByName.get(name) || 0) + 1)
       if (!versionsByName.has(name)) {
         versionsByName.set(name, new Set())
       }
@@ -148,6 +150,11 @@ export function summarizeGraph(graph) {
     missingCount,
     project: graph?.$project || null,
     dependencyTypes: Object.fromEntries(dependencyTypes.entries()),
+    duplicatePackages: Array.from(occurrencesByName.entries())
+      .map(([name, count]) => ({ name, count }))
+      .filter((item) => item.count > 1)
+      .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
+      .slice(0, 20),
     multiVersionPackages: Array.from(versionsByName.entries())
       .map(([name, versions]) => ({ name, versions: Array.from(versions).sort() }))
       .filter((item) => item.versions.length > 1),

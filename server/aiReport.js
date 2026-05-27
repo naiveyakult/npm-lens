@@ -4,6 +4,10 @@ export function createRuleBasedReport(summary) {
   const licenseText = summary.topLicenses
     .map((item) => `${item.license}: ${item.count}`)
     .join(', ') || '暂无许可证数据'
+  const duplicateText = summary.duplicatePackages
+    ?.slice(0, 5)
+    .map((item) => `${item.name}(${item.count}次)`)
+    .join('、')
 
   return {
     mode: 'local-rule',
@@ -16,6 +20,9 @@ export function createRuleBasedReport(summary) {
       summary.multiVersionPackages?.length
         ? `发现 ${summary.multiVersionPackages.length} 个包存在多版本实例。`
         : '当前样本中没有发现同包多版本实例。',
+      summary.duplicatePackages?.length
+        ? `发现 ${summary.duplicatePackages.length} 个包在依赖树中重复出现，例如 ${duplicateText}。这表示多个父依赖引用同名包，不等同于循环依赖。`
+        : '当前样本中没有发现同名包重复出现在多条依赖路径中。',
       '建议优先检查 direct dependencies 的版本、许可证和维护状态。',
       `许可证分布：${licenseText}。`
     ],
