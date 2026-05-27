@@ -1,0 +1,2503 @@
+{
+  "$project": {
+    "name": "npm-lens",
+    "version": "0.1.0",
+    "root": "/Users/yangziqing/Documents/Codex/2026-05-27/github-plugin-github-openai-curated-inspect/npm-lens"
+  },
+  "cors": {
+    "$type": "production",
+    "$versionRange": "^2.8.5",
+    "$version": "2.8.6",
+    "$description": "Node.js CORS middleware",
+    "$license": "MIT",
+    "$installed": true,
+    "object-assign": {
+      "$type": "transitive",
+      "$versionRange": "^4",
+      "$version": "4.1.1",
+      "$description": "ES2015 `Object.assign()` ponyfill",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "vary": {
+      "$type": "transitive",
+      "$versionRange": "^1",
+      "$version": "1.1.2",
+      "$description": "Manipulate the HTTP Vary header",
+      "$license": "MIT",
+      "$installed": true
+    }
+  },
+  "d3": {
+    "$type": "production",
+    "$versionRange": "^7.9.0",
+    "$version": "7.9.0",
+    "$description": "Data-Driven Documents",
+    "$license": "ISC",
+    "$installed": true,
+    "d3-array": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.2.4",
+      "$description": "Array manipulation, ordering, searching, summarizing, etc.",
+      "$license": "ISC",
+      "$installed": true,
+      "internmap": {
+        "$type": "transitive",
+        "$versionRange": "1 - 2",
+        "$version": "2.0.3",
+        "$description": "Map and Set with automatic key interning",
+        "$license": "ISC",
+        "$installed": true
+      }
+    },
+    "d3-axis": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.0.0",
+      "$description": "Displays automatic reference lines for scales.",
+      "$license": "ISC",
+      "$installed": true
+    },
+    "d3-brush": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.0.0",
+      "$description": "Select a one- or two-dimensional region using the mouse or touch.",
+      "$license": "ISC",
+      "$installed": true,
+      "d3-dispatch": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.0.1",
+        "$description": "Register named callbacks and call them with arguments.",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-drag": {
+        "$type": "transitive",
+        "$versionRange": "2 - 3",
+        "$version": "3.0.0",
+        "$description": "Drag and drop SVG, HTML or Canvas using mouse or touch input.",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-interpolate": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.0.1",
+        "$description": "Interpolate numbers, colors, strings, arrays, objects, whatever!",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-selection": {
+        "$type": "transitive",
+        "$versionRange": "3",
+        "$version": "3.0.0",
+        "$description": "Data-driven DOM manipulation: select elements and join them to data.",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-transition": {
+        "$type": "transitive",
+        "$versionRange": "3",
+        "$version": "3.0.1",
+        "$description": "Animated transitions for D3 selections.",
+        "$license": "ISC",
+        "$installed": true
+      }
+    },
+    "d3-chord": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.0.1",
+      "$description": "Visualize relationships or network flow with an aesthetically-pleasing circular layout.",
+      "$license": "ISC",
+      "$installed": true,
+      "d3-path": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.1.0",
+        "$description": "Serialize Canvas path commands to SVG.",
+        "$license": "ISC",
+        "$installed": true
+      }
+    },
+    "d3-color": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.1.0",
+      "$description": "Color spaces! RGB, HSL, Cubehelix, Lab and HCL (Lch).",
+      "$license": "ISC",
+      "$installed": true
+    },
+    "d3-contour": {
+      "$type": "transitive",
+      "$versionRange": "4",
+      "$version": "4.0.2",
+      "$description": "Compute contour polygons using marching squares.",
+      "$license": "ISC",
+      "$installed": true,
+      "d3-array": {
+        "$type": "transitive",
+        "$versionRange": "^3.2.0",
+        "$version": "3.2.4",
+        "$description": "Array manipulation, ordering, searching, summarizing, etc.",
+        "$license": "ISC",
+        "$installed": true
+      }
+    },
+    "d3-delaunay": {
+      "$type": "transitive",
+      "$versionRange": "6",
+      "$version": "6.0.4",
+      "$description": "Compute the Voronoi diagram of a set of two-dimensional points.",
+      "$license": "ISC",
+      "$installed": true,
+      "delaunator": {
+        "$type": "transitive",
+        "$versionRange": "5",
+        "$version": "5.1.0",
+        "$description": "An incredibly fast JavaScript library for Delaunay triangulation of 2D points",
+        "$license": "ISC",
+        "$installed": true
+      }
+    },
+    "d3-dispatch": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.0.1",
+      "$description": "Register named callbacks and call them with arguments.",
+      "$license": "ISC",
+      "$installed": true
+    },
+    "d3-drag": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.0.0",
+      "$description": "Drag and drop SVG, HTML or Canvas using mouse or touch input.",
+      "$license": "ISC",
+      "$installed": true,
+      "d3-dispatch": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.0.1",
+        "$description": "Register named callbacks and call them with arguments.",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-selection": {
+        "$type": "transitive",
+        "$versionRange": "3",
+        "$version": "3.0.0",
+        "$description": "Data-driven DOM manipulation: select elements and join them to data.",
+        "$license": "ISC",
+        "$installed": true
+      }
+    },
+    "d3-dsv": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.0.1",
+      "$description": "A parser and formatter for delimiter-separated values, such as CSV and TSV",
+      "$license": "ISC",
+      "$installed": true,
+      "commander": {
+        "$type": "transitive",
+        "$versionRange": "7",
+        "$version": "7.2.0",
+        "$description": "the complete solution for node.js command-line programs",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "iconv-lite": {
+        "$type": "transitive",
+        "$versionRange": "0.6",
+        "$version": "0.6.3",
+        "$description": "Convert character encodings in pure javascript.",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "rw": {
+        "$type": "transitive",
+        "$versionRange": "1",
+        "$version": "1.3.3",
+        "$description": "Now stdin and stdout are files.",
+        "$license": "BSD-3-Clause",
+        "$installed": true
+      }
+    },
+    "d3-ease": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.0.1",
+      "$description": "Easing functions for smooth animation.",
+      "$license": "BSD-3-Clause",
+      "$installed": true
+    },
+    "d3-fetch": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.0.1",
+      "$description": "Convenient parsing for Fetch.",
+      "$license": "ISC",
+      "$installed": true,
+      "d3-dsv": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.0.1",
+        "$description": "A parser and formatter for delimiter-separated values, such as CSV and TSV",
+        "$license": "ISC",
+        "$installed": true
+      }
+    },
+    "d3-force": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.0.0",
+      "$description": "Force-directed graph layout using velocity Verlet integration.",
+      "$license": "ISC",
+      "$installed": true,
+      "d3-dispatch": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.0.1",
+        "$description": "Register named callbacks and call them with arguments.",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-quadtree": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.0.1",
+        "$description": "Two-dimensional recursive spatial subdivision.",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-timer": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.0.1",
+        "$description": "An efficient queue capable of managing thousands of concurrent animations.",
+        "$license": "ISC",
+        "$installed": true
+      }
+    },
+    "d3-format": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.1.2",
+      "$description": "Format numbers for human consumption.",
+      "$license": "ISC",
+      "$installed": true
+    },
+    "d3-geo": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.1.1",
+      "$description": "Shapes and calculators for spherical coordinates.",
+      "$license": "ISC",
+      "$installed": true,
+      "d3-array": {
+        "$type": "transitive",
+        "$versionRange": "2.5.0 - 3",
+        "$version": "3.2.4",
+        "$description": "Array manipulation, ordering, searching, summarizing, etc.",
+        "$license": "ISC",
+        "$installed": true
+      }
+    },
+    "d3-hierarchy": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.1.2",
+      "$description": "Layout algorithms for visualizing hierarchical data.",
+      "$license": "ISC",
+      "$installed": true
+    },
+    "d3-interpolate": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.0.1",
+      "$description": "Interpolate numbers, colors, strings, arrays, objects, whatever!",
+      "$license": "ISC",
+      "$installed": true,
+      "d3-color": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.1.0",
+        "$description": "Color spaces! RGB, HSL, Cubehelix, Lab and HCL (Lch).",
+        "$license": "ISC",
+        "$installed": true
+      }
+    },
+    "d3-path": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.1.0",
+      "$description": "Serialize Canvas path commands to SVG.",
+      "$license": "ISC",
+      "$installed": true
+    },
+    "d3-polygon": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.0.1",
+      "$description": "Operations for two-dimensional polygons.",
+      "$license": "ISC",
+      "$installed": true
+    },
+    "d3-quadtree": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.0.1",
+      "$description": "Two-dimensional recursive spatial subdivision.",
+      "$license": "ISC",
+      "$installed": true
+    },
+    "d3-random": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.0.1",
+      "$description": "Generate random numbers from various distributions.",
+      "$license": "ISC",
+      "$installed": true
+    },
+    "d3-scale": {
+      "$type": "transitive",
+      "$versionRange": "4",
+      "$version": "4.0.2",
+      "$description": "Encodings that map abstract data to visual representation.",
+      "$license": "ISC",
+      "$installed": true,
+      "d3-array": {
+        "$type": "transitive",
+        "$versionRange": "2.10.0 - 3",
+        "$version": "3.2.4",
+        "$description": "Array manipulation, ordering, searching, summarizing, etc.",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-format": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.1.2",
+        "$description": "Format numbers for human consumption.",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-interpolate": {
+        "$type": "transitive",
+        "$versionRange": "1.2.0 - 3",
+        "$version": "3.0.1",
+        "$description": "Interpolate numbers, colors, strings, arrays, objects, whatever!",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-time": {
+        "$type": "transitive",
+        "$versionRange": "2.1.1 - 3",
+        "$version": "3.1.0",
+        "$description": "A calculator for humanity’s peculiar conventions of time.",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-time-format": {
+        "$type": "transitive",
+        "$versionRange": "2 - 4",
+        "$version": "4.1.0",
+        "$description": "A JavaScript time formatter and parser inspired by strftime and strptime.",
+        "$license": "ISC",
+        "$installed": true
+      }
+    },
+    "d3-scale-chromatic": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.1.0",
+      "$description": "Sequential, diverging and categorical color schemes.",
+      "$license": "ISC",
+      "$installed": true,
+      "d3-color": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.1.0",
+        "$description": "Color spaces! RGB, HSL, Cubehelix, Lab and HCL (Lch).",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-interpolate": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.0.1",
+        "$description": "Interpolate numbers, colors, strings, arrays, objects, whatever!",
+        "$license": "ISC",
+        "$installed": true
+      }
+    },
+    "d3-selection": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.0.0",
+      "$description": "Data-driven DOM manipulation: select elements and join them to data.",
+      "$license": "ISC",
+      "$installed": true
+    },
+    "d3-shape": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.2.0",
+      "$description": "Graphical primitives for visualization, such as lines and areas.",
+      "$license": "ISC",
+      "$installed": true,
+      "d3-path": {
+        "$type": "transitive",
+        "$versionRange": "^3.1.0",
+        "$version": "3.1.0",
+        "$description": "Serialize Canvas path commands to SVG.",
+        "$license": "ISC",
+        "$installed": true
+      }
+    },
+    "d3-time": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.1.0",
+      "$description": "A calculator for humanity’s peculiar conventions of time.",
+      "$license": "ISC",
+      "$installed": true,
+      "d3-array": {
+        "$type": "transitive",
+        "$versionRange": "2 - 3",
+        "$version": "3.2.4",
+        "$description": "Array manipulation, ordering, searching, summarizing, etc.",
+        "$license": "ISC",
+        "$installed": true
+      }
+    },
+    "d3-time-format": {
+      "$type": "transitive",
+      "$versionRange": "4",
+      "$version": "4.1.0",
+      "$description": "A JavaScript time formatter and parser inspired by strftime and strptime.",
+      "$license": "ISC",
+      "$installed": true,
+      "d3-time": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.1.0",
+        "$description": "A calculator for humanity’s peculiar conventions of time.",
+        "$license": "ISC",
+        "$installed": true
+      }
+    },
+    "d3-timer": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.0.1",
+      "$description": "An efficient queue capable of managing thousands of concurrent animations.",
+      "$license": "ISC",
+      "$installed": true
+    },
+    "d3-transition": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.0.1",
+      "$description": "Animated transitions for D3 selections.",
+      "$license": "ISC",
+      "$installed": true,
+      "d3-color": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.1.0",
+        "$description": "Color spaces! RGB, HSL, Cubehelix, Lab and HCL (Lch).",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-dispatch": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.0.1",
+        "$description": "Register named callbacks and call them with arguments.",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-ease": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.0.1",
+        "$description": "Easing functions for smooth animation.",
+        "$license": "BSD-3-Clause",
+        "$installed": true
+      },
+      "d3-interpolate": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.0.1",
+        "$description": "Interpolate numbers, colors, strings, arrays, objects, whatever!",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-timer": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.0.1",
+        "$description": "An efficient queue capable of managing thousands of concurrent animations.",
+        "$license": "ISC",
+        "$installed": true
+      }
+    },
+    "d3-zoom": {
+      "$type": "transitive",
+      "$versionRange": "3",
+      "$version": "3.0.0",
+      "$description": "Pan and zoom SVG, HTML or Canvas using mouse or touch input.",
+      "$license": "ISC",
+      "$installed": true,
+      "d3-dispatch": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.0.1",
+        "$description": "Register named callbacks and call them with arguments.",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-drag": {
+        "$type": "transitive",
+        "$versionRange": "2 - 3",
+        "$version": "3.0.0",
+        "$description": "Drag and drop SVG, HTML or Canvas using mouse or touch input.",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-interpolate": {
+        "$type": "transitive",
+        "$versionRange": "1 - 3",
+        "$version": "3.0.1",
+        "$description": "Interpolate numbers, colors, strings, arrays, objects, whatever!",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-selection": {
+        "$type": "transitive",
+        "$versionRange": "2 - 3",
+        "$version": "3.0.0",
+        "$description": "Data-driven DOM manipulation: select elements and join them to data.",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "d3-transition": {
+        "$type": "transitive",
+        "$versionRange": "2 - 3",
+        "$version": "3.0.1",
+        "$description": "Animated transitions for D3 selections.",
+        "$license": "ISC",
+        "$installed": true
+      }
+    }
+  },
+  "dotenv": {
+    "$type": "production",
+    "$versionRange": "^16.4.7",
+    "$version": "16.6.1",
+    "$description": "Loads environment variables from .env file",
+    "$license": "BSD-2-Clause",
+    "$installed": true
+  },
+  "echarts": {
+    "$type": "production",
+    "$versionRange": "^5.5.1",
+    "$version": "5.6.0",
+    "$description": "Apache ECharts is a powerful, interactive charting and data visualization library for browser",
+    "$license": "Apache-2.0",
+    "$installed": true,
+    "tslib": {
+      "$type": "transitive",
+      "$versionRange": "2.3.0",
+      "$version": "2.3.0",
+      "$description": "Runtime library for TypeScript helper functions",
+      "$license": "0BSD",
+      "$installed": true
+    },
+    "zrender": {
+      "$type": "transitive",
+      "$versionRange": "5.6.1",
+      "$version": "5.6.1",
+      "$description": "A lightweight graphic library providing 2d draw for Apache ECharts",
+      "$license": "BSD-3-Clause",
+      "$installed": true,
+      "tslib": {
+        "$type": "transitive",
+        "$versionRange": "2.3.0",
+        "$version": "2.3.0",
+        "$description": "Runtime library for TypeScript helper functions",
+        "$license": "0BSD",
+        "$installed": true
+      }
+    }
+  },
+  "element-plus": {
+    "$type": "production",
+    "$versionRange": "^2.9.3",
+    "$version": "2.14.0",
+    "$description": "A Component Library for Vue 3",
+    "$license": "MIT",
+    "$installed": true,
+    "@ctrl/tinycolor": {
+      "$type": "transitive",
+      "$versionRange": "^4.2.0",
+      "$version": "4.2.0",
+      "$description": "Fast, small color manipulation and conversion for JavaScript",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "@element-plus/icons-vue": {
+      "$type": "transitive",
+      "$versionRange": "^2.3.2",
+      "$version": "2.3.2",
+      "$description": "Vue components of Element Plus Icons collection.",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "@floating-ui/dom": {
+      "$type": "transitive",
+      "$versionRange": "^1.0.1",
+      "$version": "1.7.6",
+      "$description": "Floating UI for the web",
+      "$license": "MIT",
+      "$installed": true,
+      "@floating-ui/core": {
+        "$type": "transitive",
+        "$versionRange": "^1.7.5",
+        "$version": "1.7.5",
+        "$description": "Positioning library for floating elements: tooltips, popovers, dropdowns, and more",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "@floating-ui/utils": {
+        "$type": "transitive",
+        "$versionRange": "^0.2.11",
+        "$version": "0.2.11",
+        "$description": "Utilities for Floating UI",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "@popperjs/core": {
+      "$type": "transitive",
+      "$versionRange": "npm:@sxzz/popperjs-es@^2.11.8",
+      "$version": "2.11.8",
+      "$description": "Tooltip and Popover Positioning Engine",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "@types/lodash": {
+      "$type": "transitive",
+      "$versionRange": "^4.17.24",
+      "$version": "4.17.24",
+      "$description": "TypeScript definitions for lodash",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "@types/lodash-es": {
+      "$type": "transitive",
+      "$versionRange": "^4.17.12",
+      "$version": "4.17.12",
+      "$description": "TypeScript definitions for lodash-es",
+      "$license": "MIT",
+      "$installed": true,
+      "@types/lodash": {
+        "$type": "transitive",
+        "$versionRange": "*",
+        "$version": "4.17.24",
+        "$description": "TypeScript definitions for lodash",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "@vueuse/core": {
+      "$type": "transitive",
+      "$versionRange": "14.3.0",
+      "$version": "14.3.0",
+      "$description": "Collection of essential Vue Composition Utilities",
+      "$license": "MIT",
+      "$installed": true,
+      "@types/web-bluetooth": {
+        "$type": "transitive",
+        "$versionRange": "^0.0.21",
+        "$version": "0.0.21",
+        "$description": "TypeScript definitions for web-bluetooth",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "@vueuse/metadata": {
+        "$type": "transitive",
+        "$versionRange": "14.3.0",
+        "$version": "14.3.0",
+        "$description": "Metadata for VueUse functions",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "@vueuse/shared": {
+        "$type": "transitive",
+        "$versionRange": "14.3.0",
+        "$version": "14.3.0",
+        "$description": "",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "async-validator": {
+      "$type": "transitive",
+      "$versionRange": "^4.2.5",
+      "$version": "4.2.5",
+      "$description": "validate form asynchronous",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "dayjs": {
+      "$type": "transitive",
+      "$versionRange": "^1.11.20",
+      "$version": "1.11.21",
+      "$description": "2KB immutable date time library alternative to Moment.js with the same modern API ",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "lodash": {
+      "$type": "transitive",
+      "$versionRange": "^4.18.1",
+      "$version": "4.18.1",
+      "$description": "Lodash modular utilities.",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "lodash-es": {
+      "$type": "transitive",
+      "$versionRange": "^4.18.1",
+      "$version": "4.18.1",
+      "$description": "Lodash exported as ES modules.",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "lodash-unified": {
+      "$type": "transitive",
+      "$versionRange": "^1.0.3",
+      "$version": "1.0.3",
+      "$description": "A union entrypoint of lodash for both ESModule and Commonjs.",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "memoize-one": {
+      "$type": "transitive",
+      "$versionRange": "^6.0.0",
+      "$version": "6.0.0",
+      "$description": "A memoization library which only remembers the latest invocation",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "normalize-wheel-es": {
+      "$type": "transitive",
+      "$versionRange": "^1.2.0",
+      "$version": "1.2.0",
+      "$description": "Mouse wheel normalization across multiple multiple browsers.",
+      "$license": "BSD-3-Clause",
+      "$installed": true
+    },
+    "vue-component-type-helpers": {
+      "$type": "transitive",
+      "$versionRange": "^3.2.8",
+      "$version": "3.3.2",
+      "$description": "",
+      "$license": "MIT",
+      "$installed": true
+    }
+  },
+  "express": {
+    "$type": "production",
+    "$versionRange": "^4.21.2",
+    "$version": "4.22.2",
+    "$description": "Fast, unopinionated, minimalist web framework",
+    "$license": "MIT",
+    "$installed": true,
+    "accepts": {
+      "$type": "transitive",
+      "$versionRange": "~1.3.8",
+      "$version": "1.3.8",
+      "$description": "Higher-level content negotiation",
+      "$license": "MIT",
+      "$installed": true,
+      "mime-types": {
+        "$type": "transitive",
+        "$versionRange": "~2.1.34",
+        "$version": "2.1.35",
+        "$description": "The ultimate javascript content-type utility.",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "negotiator": {
+        "$type": "transitive",
+        "$versionRange": "0.6.3",
+        "$version": "0.6.3",
+        "$description": "HTTP content negotiation",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "array-flatten": {
+      "$type": "transitive",
+      "$versionRange": "1.1.1",
+      "$version": "1.1.1",
+      "$description": "Flatten an array of nested arrays into a single flat array",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "body-parser": {
+      "$type": "transitive",
+      "$versionRange": "~1.20.5",
+      "$version": "1.20.5",
+      "$description": "Node.js body parsing middleware",
+      "$license": "MIT",
+      "$installed": true,
+      "bytes": {
+        "$type": "transitive",
+        "$versionRange": "~3.1.2",
+        "$version": "3.1.2",
+        "$description": "Utility to parse a string bytes to bytes and vice-versa",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "content-type": {
+        "$type": "transitive",
+        "$versionRange": "~1.0.5",
+        "$version": "1.0.5",
+        "$description": "Create and parse HTTP Content-Type header",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "debug": {
+        "$type": "transitive",
+        "$versionRange": "2.6.9",
+        "$version": "2.6.9",
+        "$description": "small debugging utility",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "depd": {
+        "$type": "transitive",
+        "$versionRange": "2.0.0",
+        "$version": "2.0.0",
+        "$description": "Deprecate all the things",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "destroy": {
+        "$type": "transitive",
+        "$versionRange": "~1.2.0",
+        "$version": "1.2.0",
+        "$description": "destroy a stream if possible",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "http-errors": {
+        "$type": "transitive",
+        "$versionRange": "~2.0.1",
+        "$version": "2.0.1",
+        "$description": "Create HTTP error objects",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "iconv-lite": {
+        "$type": "transitive",
+        "$versionRange": "~0.4.24",
+        "$version": "0.6.3",
+        "$description": "Convert character encodings in pure javascript.",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "on-finished": {
+        "$type": "transitive",
+        "$versionRange": "~2.4.1",
+        "$version": "2.4.1",
+        "$description": "Execute a callback when a request closes, finishes, or errors",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "qs": {
+        "$type": "transitive",
+        "$versionRange": "~6.15.1",
+        "$version": "6.15.2",
+        "$description": "A querystring parser that supports nesting and arrays, with a depth limit",
+        "$license": "BSD-3-Clause",
+        "$installed": true
+      },
+      "raw-body": {
+        "$type": "transitive",
+        "$versionRange": "~2.5.3",
+        "$version": "2.5.3",
+        "$description": "Get and validate the raw body of a readable stream.",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "type-is": {
+        "$type": "transitive",
+        "$versionRange": "~1.6.18",
+        "$version": "1.6.18",
+        "$description": "Infer the content-type of a request.",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "unpipe": {
+        "$type": "transitive",
+        "$versionRange": "~1.0.0",
+        "$version": "1.0.0",
+        "$description": "Unpipe a stream from all destinations",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "content-disposition": {
+      "$type": "transitive",
+      "$versionRange": "~0.5.4",
+      "$version": "0.5.4",
+      "$description": "Create and parse Content-Disposition header",
+      "$license": "MIT",
+      "$installed": true,
+      "safe-buffer": {
+        "$type": "transitive",
+        "$versionRange": "5.2.1",
+        "$version": "5.2.1",
+        "$description": "Safer Node.js Buffer API",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "content-type": {
+      "$type": "transitive",
+      "$versionRange": "~1.0.4",
+      "$version": "1.0.5",
+      "$description": "Create and parse HTTP Content-Type header",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "cookie": {
+      "$type": "transitive",
+      "$versionRange": "~0.7.1",
+      "$version": "0.7.2",
+      "$description": "HTTP server cookie parsing and serialization",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "cookie-signature": {
+      "$type": "transitive",
+      "$versionRange": "~1.0.6",
+      "$version": "1.0.7",
+      "$description": "Sign and unsign cookies",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "debug": {
+      "$type": "transitive",
+      "$versionRange": "2.6.9",
+      "$version": "2.6.9",
+      "$description": "small debugging utility",
+      "$license": "MIT",
+      "$installed": true,
+      "ms": {
+        "$type": "transitive",
+        "$versionRange": "2.0.0",
+        "$version": "2.0.0",
+        "$description": "Tiny milisecond conversion utility",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "depd": {
+      "$type": "transitive",
+      "$versionRange": "2.0.0",
+      "$version": "2.0.0",
+      "$description": "Deprecate all the things",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "encodeurl": {
+      "$type": "transitive",
+      "$versionRange": "~2.0.0",
+      "$version": "2.0.0",
+      "$description": "Encode a URL to a percent-encoded form, excluding already-encoded sequences",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "escape-html": {
+      "$type": "transitive",
+      "$versionRange": "~1.0.3",
+      "$version": "1.0.3",
+      "$description": "Escape string for use in HTML",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "etag": {
+      "$type": "transitive",
+      "$versionRange": "~1.8.1",
+      "$version": "1.8.1",
+      "$description": "Create simple HTTP ETags",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "finalhandler": {
+      "$type": "transitive",
+      "$versionRange": "~1.3.1",
+      "$version": "1.3.2",
+      "$description": "Node.js final http responder",
+      "$license": "MIT",
+      "$installed": true,
+      "debug": {
+        "$type": "transitive",
+        "$versionRange": "2.6.9",
+        "$version": "2.6.9",
+        "$description": "small debugging utility",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "encodeurl": {
+        "$type": "transitive",
+        "$versionRange": "~2.0.0",
+        "$version": "2.0.0",
+        "$description": "Encode a URL to a percent-encoded form, excluding already-encoded sequences",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "escape-html": {
+        "$type": "transitive",
+        "$versionRange": "~1.0.3",
+        "$version": "1.0.3",
+        "$description": "Escape string for use in HTML",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "on-finished": {
+        "$type": "transitive",
+        "$versionRange": "~2.4.1",
+        "$version": "2.4.1",
+        "$description": "Execute a callback when a request closes, finishes, or errors",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "parseurl": {
+        "$type": "transitive",
+        "$versionRange": "~1.3.3",
+        "$version": "1.3.3",
+        "$description": "parse a url with memoization",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "statuses": {
+        "$type": "transitive",
+        "$versionRange": "~2.0.2",
+        "$version": "2.0.2",
+        "$description": "HTTP status utility",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "unpipe": {
+        "$type": "transitive",
+        "$versionRange": "~1.0.0",
+        "$version": "1.0.0",
+        "$description": "Unpipe a stream from all destinations",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "fresh": {
+      "$type": "transitive",
+      "$versionRange": "~0.5.2",
+      "$version": "0.5.2",
+      "$description": "HTTP response freshness testing",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "http-errors": {
+      "$type": "transitive",
+      "$versionRange": "~2.0.0",
+      "$version": "2.0.1",
+      "$description": "Create HTTP error objects",
+      "$license": "MIT",
+      "$installed": true,
+      "depd": {
+        "$type": "transitive",
+        "$versionRange": "~2.0.0",
+        "$version": "2.0.0",
+        "$description": "Deprecate all the things",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "inherits": {
+        "$type": "transitive",
+        "$versionRange": "~2.0.4",
+        "$version": "2.0.4",
+        "$description": "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "setprototypeof": {
+        "$type": "transitive",
+        "$versionRange": "~1.2.0",
+        "$version": "1.2.0",
+        "$description": "A small polyfill for Object.setprototypeof",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "statuses": {
+        "$type": "transitive",
+        "$versionRange": "~2.0.2",
+        "$version": "2.0.2",
+        "$description": "HTTP status utility",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "toidentifier": {
+        "$type": "transitive",
+        "$versionRange": "~1.0.1",
+        "$version": "1.0.1",
+        "$description": "Convert a string of words to a JavaScript identifier",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "merge-descriptors": {
+      "$type": "transitive",
+      "$versionRange": "1.0.3",
+      "$version": "1.0.3",
+      "$description": "Merge objects using descriptors",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "methods": {
+      "$type": "transitive",
+      "$versionRange": "~1.1.2",
+      "$version": "1.1.2",
+      "$description": "HTTP methods that node supports",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "on-finished": {
+      "$type": "transitive",
+      "$versionRange": "~2.4.1",
+      "$version": "2.4.1",
+      "$description": "Execute a callback when a request closes, finishes, or errors",
+      "$license": "MIT",
+      "$installed": true,
+      "ee-first": {
+        "$type": "transitive",
+        "$versionRange": "1.1.1",
+        "$version": "1.1.1",
+        "$description": "return the first event in a set of ee/event pairs",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "parseurl": {
+      "$type": "transitive",
+      "$versionRange": "~1.3.3",
+      "$version": "1.3.3",
+      "$description": "parse a url with memoization",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "path-to-regexp": {
+      "$type": "transitive",
+      "$versionRange": "~0.1.12",
+      "$version": "0.1.13",
+      "$description": "Express style path to RegExp utility",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "proxy-addr": {
+      "$type": "transitive",
+      "$versionRange": "~2.0.7",
+      "$version": "2.0.7",
+      "$description": "Determine address of proxied request",
+      "$license": "MIT",
+      "$installed": true,
+      "forwarded": {
+        "$type": "transitive",
+        "$versionRange": "0.2.0",
+        "$version": "0.2.0",
+        "$description": "Parse HTTP X-Forwarded-For header",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "ipaddr.js": {
+        "$type": "transitive",
+        "$versionRange": "1.9.1",
+        "$version": "1.9.1",
+        "$description": "A library for manipulating IPv4 and IPv6 addresses in JavaScript.",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "qs": {
+      "$type": "transitive",
+      "$versionRange": "~6.15.1",
+      "$version": "6.15.2",
+      "$description": "A querystring parser that supports nesting and arrays, with a depth limit",
+      "$license": "BSD-3-Clause",
+      "$installed": true,
+      "side-channel": {
+        "$type": "transitive",
+        "$versionRange": "^1.1.0",
+        "$version": "1.1.0",
+        "$description": "Store information about any JS value in a side channel. Uses WeakMap if available.",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "range-parser": {
+      "$type": "transitive",
+      "$versionRange": "~1.2.1",
+      "$version": "1.2.1",
+      "$description": "Range header field string parser",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "safe-buffer": {
+      "$type": "transitive",
+      "$versionRange": "5.2.1",
+      "$version": "5.2.1",
+      "$description": "Safer Node.js Buffer API",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "send": {
+      "$type": "transitive",
+      "$versionRange": "~0.19.0",
+      "$version": "0.19.2",
+      "$description": "Better streaming static file server with Range and conditional-GET support",
+      "$license": "MIT",
+      "$installed": true,
+      "debug": {
+        "$type": "transitive",
+        "$versionRange": "2.6.9",
+        "$version": "2.6.9",
+        "$description": "small debugging utility",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "depd": {
+        "$type": "transitive",
+        "$versionRange": "2.0.0",
+        "$version": "2.0.0",
+        "$description": "Deprecate all the things",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "destroy": {
+        "$type": "transitive",
+        "$versionRange": "1.2.0",
+        "$version": "1.2.0",
+        "$description": "destroy a stream if possible",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "encodeurl": {
+        "$type": "transitive",
+        "$versionRange": "~2.0.0",
+        "$version": "2.0.0",
+        "$description": "Encode a URL to a percent-encoded form, excluding already-encoded sequences",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "escape-html": {
+        "$type": "transitive",
+        "$versionRange": "~1.0.3",
+        "$version": "1.0.3",
+        "$description": "Escape string for use in HTML",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "etag": {
+        "$type": "transitive",
+        "$versionRange": "~1.8.1",
+        "$version": "1.8.1",
+        "$description": "Create simple HTTP ETags",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "fresh": {
+        "$type": "transitive",
+        "$versionRange": "~0.5.2",
+        "$version": "0.5.2",
+        "$description": "HTTP response freshness testing",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "http-errors": {
+        "$type": "transitive",
+        "$versionRange": "~2.0.1",
+        "$version": "2.0.1",
+        "$description": "Create HTTP error objects",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "mime": {
+        "$type": "transitive",
+        "$versionRange": "1.6.0",
+        "$version": "1.6.0",
+        "$description": "A comprehensive library for mime-type mapping",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "ms": {
+        "$type": "transitive",
+        "$versionRange": "2.1.3",
+        "$version": "2.0.0",
+        "$description": "Tiny milisecond conversion utility",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "on-finished": {
+        "$type": "transitive",
+        "$versionRange": "~2.4.1",
+        "$version": "2.4.1",
+        "$description": "Execute a callback when a request closes, finishes, or errors",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "range-parser": {
+        "$type": "transitive",
+        "$versionRange": "~1.2.1",
+        "$version": "1.2.1",
+        "$description": "Range header field string parser",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "statuses": {
+        "$type": "transitive",
+        "$versionRange": "~2.0.2",
+        "$version": "2.0.2",
+        "$description": "HTTP status utility",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "serve-static": {
+      "$type": "transitive",
+      "$versionRange": "~1.16.2",
+      "$version": "1.16.3",
+      "$description": "Serve static files",
+      "$license": "MIT",
+      "$installed": true,
+      "encodeurl": {
+        "$type": "transitive",
+        "$versionRange": "~2.0.0",
+        "$version": "2.0.0",
+        "$description": "Encode a URL to a percent-encoded form, excluding already-encoded sequences",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "escape-html": {
+        "$type": "transitive",
+        "$versionRange": "~1.0.3",
+        "$version": "1.0.3",
+        "$description": "Escape string for use in HTML",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "parseurl": {
+        "$type": "transitive",
+        "$versionRange": "~1.3.3",
+        "$version": "1.3.3",
+        "$description": "parse a url with memoization",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "send": {
+        "$type": "transitive",
+        "$versionRange": "~0.19.1",
+        "$version": "0.19.2",
+        "$description": "Better streaming static file server with Range and conditional-GET support",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "setprototypeof": {
+      "$type": "transitive",
+      "$versionRange": "1.2.0",
+      "$version": "1.2.0",
+      "$description": "A small polyfill for Object.setprototypeof",
+      "$license": "ISC",
+      "$installed": true
+    },
+    "statuses": {
+      "$type": "transitive",
+      "$versionRange": "~2.0.1",
+      "$version": "2.0.2",
+      "$description": "HTTP status utility",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "type-is": {
+      "$type": "transitive",
+      "$versionRange": "~1.6.18",
+      "$version": "1.6.18",
+      "$description": "Infer the content-type of a request.",
+      "$license": "MIT",
+      "$installed": true,
+      "media-typer": {
+        "$type": "transitive",
+        "$versionRange": "0.3.0",
+        "$version": "0.3.0",
+        "$description": "Simple RFC 6838 media type parser and formatter",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "mime-types": {
+        "$type": "transitive",
+        "$versionRange": "~2.1.24",
+        "$version": "2.1.35",
+        "$description": "The ultimate javascript content-type utility.",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "utils-merge": {
+      "$type": "transitive",
+      "$versionRange": "1.0.1",
+      "$version": "1.0.1",
+      "$description": "merge() utility function",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "vary": {
+      "$type": "transitive",
+      "$versionRange": "~1.1.2",
+      "$version": "1.1.2",
+      "$description": "Manipulate the HTTP Vary header",
+      "$license": "MIT",
+      "$installed": true
+    }
+  },
+  "openai": {
+    "$type": "production",
+    "$versionRange": "^4.78.1",
+    "$version": "4.104.0",
+    "$description": "The official TypeScript library for the OpenAI API",
+    "$license": "Apache-2.0",
+    "$installed": true,
+    "@types/node": {
+      "$type": "transitive",
+      "$versionRange": "^18.11.18",
+      "$version": "18.19.130",
+      "$description": "TypeScript definitions for node",
+      "$license": "MIT",
+      "$installed": true,
+      "undici-types": {
+        "$type": "transitive",
+        "$versionRange": "~5.26.4",
+        "$version": "5.26.5",
+        "$description": "A stand-alone types package for Undici",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "@types/node-fetch": {
+      "$type": "transitive",
+      "$versionRange": "^2.6.4",
+      "$version": "2.6.13",
+      "$description": "TypeScript definitions for node-fetch",
+      "$license": "MIT",
+      "$installed": true,
+      "@types/node": {
+        "$type": "transitive",
+        "$versionRange": "*",
+        "$version": "18.19.130",
+        "$description": "TypeScript definitions for node",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "form-data": {
+        "$type": "transitive",
+        "$versionRange": "^4.0.4",
+        "$version": "4.0.5",
+        "$description": "A library to create readable \"multipart/form-data\" streams. Can be used to submit forms and file uploads to other web applications.",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "abort-controller": {
+      "$type": "transitive",
+      "$versionRange": "^3.0.0",
+      "$version": "3.0.0",
+      "$description": "An implementation of WHATWG AbortController interface.",
+      "$license": "MIT",
+      "$installed": true,
+      "event-target-shim": {
+        "$type": "transitive",
+        "$versionRange": "^5.0.0",
+        "$version": "5.0.1",
+        "$description": "An implementation of WHATWG EventTarget interface.",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "agentkeepalive": {
+      "$type": "transitive",
+      "$versionRange": "^4.2.1",
+      "$version": "4.6.0",
+      "$description": "Missing keepalive http.Agent",
+      "$license": "MIT",
+      "$installed": true,
+      "humanize-ms": {
+        "$type": "transitive",
+        "$versionRange": "^1.2.1",
+        "$version": "1.2.1",
+        "$description": "transform humanize time to ms",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "form-data-encoder": {
+      "$type": "transitive",
+      "$versionRange": "1.7.2",
+      "$version": "1.7.2",
+      "$description": "Encode FormData content into the multipart/form-data format",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "formdata-node": {
+      "$type": "transitive",
+      "$versionRange": "^4.3.2",
+      "$version": "4.4.1",
+      "$description": "Spec-compliant FormData implementation for Node.js",
+      "$license": "MIT",
+      "$installed": true,
+      "node-domexception": {
+        "$type": "transitive",
+        "$versionRange": "1.0.0",
+        "$version": "1.0.0",
+        "$description": "An implementation of the DOMException class from NodeJS",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "web-streams-polyfill": {
+        "$type": "transitive",
+        "$versionRange": "4.0.0-beta.3",
+        "$version": "4.0.0-beta.3",
+        "$description": "Web Streams, based on the WHATWG spec reference implementation",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "node-fetch": {
+      "$type": "transitive",
+      "$versionRange": "^2.6.7",
+      "$version": "2.7.0",
+      "$description": "A light-weight module that brings window.fetch to node.js",
+      "$license": "MIT",
+      "$installed": true,
+      "whatwg-url": {
+        "$type": "transitive",
+        "$versionRange": "^5.0.0",
+        "$version": "5.0.0",
+        "$description": "An implementation of the WHATWG URL Standard's URL API and parsing machinery",
+        "$license": "MIT",
+        "$installed": true
+      }
+    }
+  },
+  "vue": {
+    "$type": "production",
+    "$versionRange": "^3.5.13",
+    "$version": "3.5.34",
+    "$description": "The progressive JavaScript framework for building modern web UI.",
+    "$license": "MIT",
+    "$installed": true,
+    "@vue/shared": {
+      "$type": "transitive",
+      "$versionRange": "3.5.34",
+      "$version": "3.5.34",
+      "$description": "internal utils shared across @vue packages",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "@vue/runtime-dom": {
+      "$type": "transitive",
+      "$versionRange": "3.5.34",
+      "$version": "3.5.34",
+      "$description": "@vue/runtime-dom",
+      "$license": "MIT",
+      "$installed": true,
+      "csstype": {
+        "$type": "transitive",
+        "$versionRange": "^3.2.3",
+        "$version": "3.2.3",
+        "$description": "Strict TypeScript and Flow types for style based on MDN data",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "@vue/shared": {
+        "$type": "transitive",
+        "$versionRange": "3.5.34",
+        "$version": "3.5.34",
+        "$description": "internal utils shared across @vue packages",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "@vue/runtime-core": {
+        "$type": "transitive",
+        "$versionRange": "3.5.34",
+        "$version": "3.5.34",
+        "$description": "@vue/runtime-core",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "@vue/reactivity": {
+        "$type": "transitive",
+        "$versionRange": "3.5.34",
+        "$version": "3.5.34",
+        "$description": "@vue/reactivity",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "@vue/compiler-sfc": {
+      "$type": "transitive",
+      "$versionRange": "3.5.34",
+      "$version": "3.5.34",
+      "$description": "@vue/compiler-sfc",
+      "$license": "MIT",
+      "$installed": true,
+      "@babel/parser": {
+        "$type": "transitive",
+        "$versionRange": "^7.29.3",
+        "$version": "7.29.7",
+        "$description": "A JavaScript parser",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "estree-walker": {
+        "$type": "transitive",
+        "$versionRange": "^2.0.2",
+        "$version": "2.0.2",
+        "$description": "Traverse an ESTree-compliant AST",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "magic-string": {
+        "$type": "transitive",
+        "$versionRange": "^0.30.21",
+        "$version": "0.30.21",
+        "$description": "Modify strings, generate sourcemaps",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "postcss": {
+        "$type": "transitive",
+        "$versionRange": "^8.5.14",
+        "$version": "8.5.15",
+        "$description": "Tool for transforming styles with JS plugins",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "source-map-js": {
+        "$type": "transitive",
+        "$versionRange": "^1.2.1",
+        "$version": "1.2.1",
+        "$description": "Generates and consumes source maps",
+        "$license": "BSD-3-Clause",
+        "$installed": true
+      },
+      "@vue/compiler-ssr": {
+        "$type": "transitive",
+        "$versionRange": "3.5.34",
+        "$version": "3.5.34",
+        "$description": "@vue/compiler-ssr",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "@vue/shared": {
+        "$type": "transitive",
+        "$versionRange": "3.5.34",
+        "$version": "3.5.34",
+        "$description": "internal utils shared across @vue packages",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "@vue/compiler-core": {
+        "$type": "transitive",
+        "$versionRange": "3.5.34",
+        "$version": "3.5.34",
+        "$description": "@vue/compiler-core",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "@vue/compiler-dom": {
+        "$type": "transitive",
+        "$versionRange": "3.5.34",
+        "$version": "3.5.34",
+        "$description": "@vue/compiler-dom",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "@vue/server-renderer": {
+      "$type": "transitive",
+      "$versionRange": "3.5.34",
+      "$version": "3.5.34",
+      "$description": "@vue/server-renderer",
+      "$license": "MIT",
+      "$installed": true,
+      "@vue/shared": {
+        "$type": "transitive",
+        "$versionRange": "3.5.34",
+        "$version": "3.5.34",
+        "$description": "internal utils shared across @vue packages",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "@vue/compiler-ssr": {
+        "$type": "transitive",
+        "$versionRange": "3.5.34",
+        "$version": "3.5.34",
+        "$description": "@vue/compiler-ssr",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "@vue/compiler-dom": {
+      "$type": "transitive",
+      "$versionRange": "3.5.34",
+      "$version": "3.5.34",
+      "$description": "@vue/compiler-dom",
+      "$license": "MIT",
+      "$installed": true,
+      "@vue/shared": {
+        "$type": "transitive",
+        "$versionRange": "3.5.34",
+        "$version": "3.5.34",
+        "$description": "internal utils shared across @vue packages",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "@vue/compiler-core": {
+        "$type": "transitive",
+        "$versionRange": "3.5.34",
+        "$version": "3.5.34",
+        "$description": "@vue/compiler-core",
+        "$license": "MIT",
+        "$installed": true
+      }
+    }
+  },
+  "vue-router": {
+    "$type": "production",
+    "$versionRange": "^4.5.0",
+    "$version": "4.6.4",
+    "$description": "",
+    "$license": "MIT",
+    "$installed": true,
+    "@vue/devtools-api": {
+      "$type": "transitive",
+      "$versionRange": "^6.6.4",
+      "$version": "6.6.4",
+      "$description": "Interact with the Vue devtools from the page",
+      "$license": "MIT",
+      "$installed": true
+    }
+  },
+  "@vitejs/plugin-vue": {
+    "$type": "development",
+    "$versionRange": "^5.2.1",
+    "$version": "5.2.4",
+    "$description": "",
+    "$license": "MIT",
+    "$installed": true
+  },
+  "concurrently": {
+    "$type": "development",
+    "$versionRange": "^9.1.2",
+    "$version": "9.2.1",
+    "$description": "Run commands concurrently",
+    "$license": "MIT",
+    "$installed": true,
+    "chalk": {
+      "$type": "transitive",
+      "$versionRange": "4.1.2",
+      "$version": "4.1.2",
+      "$description": "Terminal string styling done right",
+      "$license": "MIT",
+      "$installed": true,
+      "ansi-styles": {
+        "$type": "transitive",
+        "$versionRange": "^4.1.0",
+        "$version": "4.3.0",
+        "$description": "ANSI escape codes for styling strings in the terminal",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "supports-color": {
+        "$type": "transitive",
+        "$versionRange": "^7.1.0",
+        "$version": "8.1.1",
+        "$description": "Detect whether a terminal supports color",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "rxjs": {
+      "$type": "transitive",
+      "$versionRange": "7.8.2",
+      "$version": "7.8.2",
+      "$description": "Reactive Extensions for modern JavaScript",
+      "$license": "Apache-2.0",
+      "$installed": true,
+      "tslib": {
+        "$type": "transitive",
+        "$versionRange": "^2.1.0",
+        "$version": "2.3.0",
+        "$description": "Runtime library for TypeScript helper functions",
+        "$license": "0BSD",
+        "$installed": true
+      }
+    },
+    "shell-quote": {
+      "$type": "transitive",
+      "$versionRange": "1.8.3",
+      "$version": "1.8.3",
+      "$description": "quote and parse shell commands",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "supports-color": {
+      "$type": "transitive",
+      "$versionRange": "8.1.1",
+      "$version": "8.1.1",
+      "$description": "Detect whether a terminal supports color",
+      "$license": "MIT",
+      "$installed": true,
+      "has-flag": {
+        "$type": "transitive",
+        "$versionRange": "^4.0.0",
+        "$version": "4.0.0",
+        "$description": "Check if argv has a specific flag",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "tree-kill": {
+      "$type": "transitive",
+      "$versionRange": "1.2.2",
+      "$version": "1.2.2",
+      "$description": "kill trees of processes",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "yargs": {
+      "$type": "transitive",
+      "$versionRange": "17.7.2",
+      "$version": "17.7.2",
+      "$description": "yargs the modern, pirate-themed, successor to optimist.",
+      "$license": "MIT",
+      "$installed": true,
+      "cliui": {
+        "$type": "transitive",
+        "$versionRange": "^8.0.1",
+        "$version": "8.0.1",
+        "$description": "easily create complex multi-column command-line-interfaces",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "escalade": {
+        "$type": "transitive",
+        "$versionRange": "^3.1.1",
+        "$version": "3.2.0",
+        "$description": "A tiny (183B to 210B) and fast utility to ascend parent directories",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "get-caller-file": {
+        "$type": "transitive",
+        "$versionRange": "^2.0.5",
+        "$version": "2.0.5",
+        "$description": "",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "require-directory": {
+        "$type": "transitive",
+        "$versionRange": "^2.1.1",
+        "$version": "2.1.1",
+        "$description": "Recursively iterates over specified directory, require()'ing each file, and returning a nested hash structure containing those modules.",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "string-width": {
+        "$type": "transitive",
+        "$versionRange": "^4.2.3",
+        "$version": "4.2.3",
+        "$description": "Get the visual width of a string - the number of columns required to display it",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "y18n": {
+        "$type": "transitive",
+        "$versionRange": "^5.0.5",
+        "$version": "5.0.8",
+        "$description": "the bare-bones internationalization library used by yargs",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "yargs-parser": {
+        "$type": "transitive",
+        "$versionRange": "^21.1.1",
+        "$version": "21.1.1",
+        "$description": "the mighty option parser used by yargs",
+        "$license": "ISC",
+        "$installed": true
+      }
+    }
+  },
+  "vite": {
+    "$type": "development",
+    "$versionRange": "^6.0.7",
+    "$version": "6.4.2",
+    "$description": "Native-ESM powered web dev build tool",
+    "$license": "MIT",
+    "$installed": true,
+    "esbuild": {
+      "$type": "transitive",
+      "$versionRange": "^0.25.0",
+      "$version": "0.25.12",
+      "$description": "An extremely fast JavaScript and CSS bundler and minifier.",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "fdir": {
+      "$type": "transitive",
+      "$versionRange": "^6.4.4",
+      "$version": "6.5.0",
+      "$description": "The fastest directory crawler & globbing alternative to glob, fast-glob, & tiny-glob. Crawls 1m files in < 1s",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "picomatch": {
+      "$type": "transitive",
+      "$versionRange": "^4.0.2",
+      "$version": "4.0.4",
+      "$description": "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "postcss": {
+      "$type": "transitive",
+      "$versionRange": "^8.5.3",
+      "$version": "8.5.15",
+      "$description": "Tool for transforming styles with JS plugins",
+      "$license": "MIT",
+      "$installed": true,
+      "nanoid": {
+        "$type": "transitive",
+        "$versionRange": "^3.3.12",
+        "$version": "3.3.12",
+        "$description": "A tiny (116 bytes), secure URL-friendly unique string ID generator",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "picocolors": {
+        "$type": "transitive",
+        "$versionRange": "^1.1.1",
+        "$version": "1.1.1",
+        "$description": "The tiniest and the fastest library for terminal output formatting with ANSI colors",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "source-map-js": {
+        "$type": "transitive",
+        "$versionRange": "^1.2.1",
+        "$version": "1.2.1",
+        "$description": "Generates and consumes source maps",
+        "$license": "BSD-3-Clause",
+        "$installed": true
+      }
+    },
+    "rollup": {
+      "$type": "transitive",
+      "$versionRange": "^4.34.9",
+      "$version": "4.60.4",
+      "$description": "Next-generation ES module bundler",
+      "$license": "MIT",
+      "$installed": true,
+      "@types/estree": {
+        "$type": "transitive",
+        "$versionRange": "1.0.8",
+        "$version": "1.0.8",
+        "$description": "TypeScript definitions for estree",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "tinyglobby": {
+      "$type": "transitive",
+      "$versionRange": "^0.2.13",
+      "$version": "0.2.16",
+      "$description": "A fast and minimal alternative to globby and fast-glob",
+      "$license": "MIT",
+      "$installed": true,
+      "fdir": {
+        "$type": "transitive",
+        "$versionRange": "^6.5.0",
+        "$version": "6.5.0",
+        "$description": "The fastest directory crawler & globbing alternative to glob, fast-glob, & tiny-glob. Crawls 1m files in < 1s",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "picomatch": {
+        "$type": "transitive",
+        "$versionRange": "^4.0.4",
+        "$version": "4.0.4",
+        "$description": "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+        "$license": "MIT",
+        "$installed": true
+      }
+    }
+  },
+  "vitest": {
+    "$type": "development",
+    "$versionRange": "^2.1.8",
+    "$version": "2.1.9",
+    "$description": "Next generation testing framework powered by Vite",
+    "$license": "MIT",
+    "$installed": true,
+    "chai": {
+      "$type": "transitive",
+      "$versionRange": "^5.1.2",
+      "$version": "5.3.3",
+      "$description": "BDD/TDD assertion library for node.js and the browser. Test framework agnostic.",
+      "$license": "MIT",
+      "$installed": true,
+      "assertion-error": {
+        "$type": "transitive",
+        "$versionRange": "^2.0.1",
+        "$version": "2.0.1",
+        "$description": "Error constructor for test and validation frameworks that implements standardized AssertionError specification.",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "check-error": {
+        "$type": "transitive",
+        "$versionRange": "^2.1.1",
+        "$version": "2.1.3",
+        "$description": "Error comparison and information related utility for node and the browser",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "deep-eql": {
+        "$type": "transitive",
+        "$versionRange": "^5.0.1",
+        "$version": "5.0.2",
+        "$description": "Improved deep equality testing for Node.js and the browser.",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "loupe": {
+        "$type": "transitive",
+        "$versionRange": "^3.1.0",
+        "$version": "3.2.1",
+        "$description": "Inspect utility for Node.js and browsers",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "pathval": {
+        "$type": "transitive",
+        "$versionRange": "^2.0.0",
+        "$version": "2.0.1",
+        "$description": "Object value retrieval given a string path",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "debug": {
+      "$type": "transitive",
+      "$versionRange": "^4.3.7",
+      "$version": "2.6.9",
+      "$description": "small debugging utility",
+      "$license": "MIT",
+      "$installed": true,
+      "ms": {
+        "$type": "transitive",
+        "$versionRange": "2.0.0",
+        "$version": "2.0.0",
+        "$description": "Tiny milisecond conversion utility",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "expect-type": {
+      "$type": "transitive",
+      "$versionRange": "^1.1.0",
+      "$version": "1.3.0",
+      "$description": "",
+      "$license": "Apache-2.0",
+      "$installed": true
+    },
+    "magic-string": {
+      "$type": "transitive",
+      "$versionRange": "^0.30.12",
+      "$version": "0.30.21",
+      "$description": "Modify strings, generate sourcemaps",
+      "$license": "MIT",
+      "$installed": true,
+      "@jridgewell/sourcemap-codec": {
+        "$type": "transitive",
+        "$versionRange": "^1.5.5",
+        "$version": "1.5.5",
+        "$description": "Encode/decode sourcemap mappings",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "pathe": {
+      "$type": "transitive",
+      "$versionRange": "^1.1.2",
+      "$version": "1.1.2",
+      "$description": "Universal filesystem path utils",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "std-env": {
+      "$type": "transitive",
+      "$versionRange": "^3.8.0",
+      "$version": "3.10.0",
+      "$description": "Runtime agnostic JS utils",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "tinybench": {
+      "$type": "transitive",
+      "$versionRange": "^2.9.0",
+      "$version": "2.9.0",
+      "$description": "",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "tinyexec": {
+      "$type": "transitive",
+      "$versionRange": "^0.3.1",
+      "$version": "0.3.2",
+      "$description": "A minimal library for executing processes in Node",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "tinypool": {
+      "$type": "transitive",
+      "$versionRange": "^1.0.1",
+      "$version": "1.1.1",
+      "$description": "A minimal and tiny Node.js Worker Thread Pool implementation, a fork of piscina, but with fewer features",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "tinyrainbow": {
+      "$type": "transitive",
+      "$versionRange": "^1.2.0",
+      "$version": "1.2.0",
+      "$description": "A small library to print colourful messages.",
+      "$license": "MIT",
+      "$installed": true
+    },
+    "vite": {
+      "$type": "transitive",
+      "$versionRange": "^5.0.0",
+      "$version": "6.4.2",
+      "$description": "Native-ESM powered web dev build tool",
+      "$license": "MIT",
+      "$installed": true,
+      "esbuild": {
+        "$type": "transitive",
+        "$versionRange": "^0.25.0",
+        "$version": "0.25.12",
+        "$description": "An extremely fast JavaScript and CSS bundler and minifier.",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "fdir": {
+        "$type": "transitive",
+        "$versionRange": "^6.4.4",
+        "$version": "6.5.0",
+        "$description": "The fastest directory crawler & globbing alternative to glob, fast-glob, & tiny-glob. Crawls 1m files in < 1s",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "picomatch": {
+        "$type": "transitive",
+        "$versionRange": "^4.0.2",
+        "$version": "4.0.4",
+        "$description": "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "postcss": {
+        "$type": "transitive",
+        "$versionRange": "^8.5.3",
+        "$version": "8.5.15",
+        "$description": "Tool for transforming styles with JS plugins",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "rollup": {
+        "$type": "transitive",
+        "$versionRange": "^4.34.9",
+        "$version": "4.60.4",
+        "$description": "Next-generation ES module bundler",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "tinyglobby": {
+        "$type": "transitive",
+        "$versionRange": "^0.2.13",
+        "$version": "0.2.16",
+        "$description": "A fast and minimal alternative to globby and fast-glob",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "why-is-node-running": {
+      "$type": "transitive",
+      "$versionRange": "^2.3.0",
+      "$version": "2.3.0",
+      "$description": "Node is running but you don't know why? why-is-node-running is here to help you.",
+      "$license": "MIT",
+      "$installed": true,
+      "siginfo": {
+        "$type": "transitive",
+        "$versionRange": "^2.0.0",
+        "$version": "2.0.0",
+        "$description": "Utility module to print pretty messages on SIGINFO/SIGUSR1",
+        "$license": "ISC",
+        "$installed": true
+      },
+      "stackback": {
+        "$type": "transitive",
+        "$versionRange": "0.0.2",
+        "$version": "0.0.2",
+        "$description": "return list of CallSite objects from a captured stacktrace",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "@vitest/expect": {
+      "$type": "transitive",
+      "$versionRange": "2.1.9",
+      "$version": "2.1.9",
+      "$description": "Jest's expect matchers as a Chai plugin",
+      "$license": "MIT",
+      "$installed": true,
+      "chai": {
+        "$type": "transitive",
+        "$versionRange": "^5.1.2",
+        "$version": "5.3.3",
+        "$description": "BDD/TDD assertion library for node.js and the browser. Test framework agnostic.",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "tinyrainbow": {
+        "$type": "transitive",
+        "$versionRange": "^1.2.0",
+        "$version": "1.2.0",
+        "$description": "A small library to print colourful messages.",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "@vitest/spy": {
+        "$type": "transitive",
+        "$versionRange": "2.1.9",
+        "$version": "2.1.9",
+        "$description": "Lightweight Jest compatible spy implementation",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "@vitest/utils": {
+        "$type": "transitive",
+        "$versionRange": "2.1.9",
+        "$version": "2.1.9",
+        "$description": "Shared Vitest utility functions",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "@vitest/mocker": {
+      "$type": "transitive",
+      "$versionRange": "2.1.9",
+      "$version": "2.1.9",
+      "$description": "",
+      "$license": "unknown",
+      "$installed": false
+    },
+    "@vitest/runner": {
+      "$type": "transitive",
+      "$versionRange": "2.1.9",
+      "$version": "2.1.9",
+      "$description": "Vitest test runner",
+      "$license": "MIT",
+      "$installed": true,
+      "pathe": {
+        "$type": "transitive",
+        "$versionRange": "^1.1.2",
+        "$version": "1.1.2",
+        "$description": "Universal filesystem path utils",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "@vitest/utils": {
+        "$type": "transitive",
+        "$versionRange": "2.1.9",
+        "$version": "2.1.9",
+        "$description": "Shared Vitest utility functions",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "@vitest/snapshot": {
+      "$type": "transitive",
+      "$versionRange": "2.1.9",
+      "$version": "2.1.9",
+      "$description": "Vitest snapshot manager",
+      "$license": "MIT",
+      "$installed": true,
+      "magic-string": {
+        "$type": "transitive",
+        "$versionRange": "^0.30.12",
+        "$version": "0.30.21",
+        "$description": "Modify strings, generate sourcemaps",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "pathe": {
+        "$type": "transitive",
+        "$versionRange": "^1.1.2",
+        "$version": "1.1.2",
+        "$description": "Universal filesystem path utils",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "@vitest/pretty-format": {
+        "$type": "transitive",
+        "$versionRange": "2.1.9",
+        "$version": "2.1.9",
+        "$description": "Fork of pretty-format with support for ESM",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "@vitest/pretty-format": {
+      "$type": "transitive",
+      "$versionRange": "^2.1.9",
+      "$version": "2.1.9",
+      "$description": "Fork of pretty-format with support for ESM",
+      "$license": "MIT",
+      "$installed": true,
+      "tinyrainbow": {
+        "$type": "transitive",
+        "$versionRange": "^1.2.0",
+        "$version": "1.2.0",
+        "$description": "A small library to print colourful messages.",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "@vitest/spy": {
+      "$type": "transitive",
+      "$versionRange": "2.1.9",
+      "$version": "2.1.9",
+      "$description": "Lightweight Jest compatible spy implementation",
+      "$license": "MIT",
+      "$installed": true,
+      "tinyspy": {
+        "$type": "transitive",
+        "$versionRange": "^3.0.2",
+        "$version": "3.0.2",
+        "$description": "A minimal fork of nanospy, with more features",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "vite-node": {
+      "$type": "transitive",
+      "$versionRange": "2.1.9",
+      "$version": "2.1.9",
+      "$description": "Vite as Node.js runtime",
+      "$license": "MIT",
+      "$installed": true,
+      "cac": {
+        "$type": "transitive",
+        "$versionRange": "^6.7.14",
+        "$version": "6.7.14",
+        "$description": "Simple yet powerful framework for building command-line apps.",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "debug": {
+        "$type": "transitive",
+        "$versionRange": "^4.3.7",
+        "$version": "2.6.9",
+        "$description": "small debugging utility",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "es-module-lexer": {
+        "$type": "transitive",
+        "$versionRange": "^1.5.4",
+        "$version": "1.7.0",
+        "$description": "Lexes ES modules returning their import/export metadata",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "pathe": {
+        "$type": "transitive",
+        "$versionRange": "^1.1.2",
+        "$version": "1.1.2",
+        "$description": "Universal filesystem path utils",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "vite": {
+        "$type": "transitive",
+        "$versionRange": "^5.0.0",
+        "$version": "6.4.2",
+        "$description": "Native-ESM powered web dev build tool",
+        "$license": "MIT",
+        "$installed": true
+      }
+    },
+    "@vitest/utils": {
+      "$type": "transitive",
+      "$versionRange": "2.1.9",
+      "$version": "2.1.9",
+      "$description": "Shared Vitest utility functions",
+      "$license": "MIT",
+      "$installed": true,
+      "loupe": {
+        "$type": "transitive",
+        "$versionRange": "^3.1.2",
+        "$version": "3.2.1",
+        "$description": "Inspect utility for Node.js and browsers",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "tinyrainbow": {
+        "$type": "transitive",
+        "$versionRange": "^1.2.0",
+        "$version": "1.2.0",
+        "$description": "A small library to print colourful messages.",
+        "$license": "MIT",
+        "$installed": true
+      },
+      "@vitest/pretty-format": {
+        "$type": "transitive",
+        "$versionRange": "2.1.9",
+        "$version": "2.1.9",
+        "$description": "Fork of pretty-format with support for ESM",
+        "$license": "MIT",
+        "$installed": true
+      }
+    }
+  }
+}

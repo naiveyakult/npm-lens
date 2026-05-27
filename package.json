@@ -1,0 +1,42 @@
+{
+  "name": "npm-lens",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "npm-lens": "./main.js"
+  },
+  "files": [
+    "main.js",
+    "server",
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 8080",
+    "api": "node server/index.js",
+    "dev:all": "concurrently \"npm run api\" \"npm run dev\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "analyze": "node main.js analyze",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "d3": "^7.9.0",
+    "dotenv": "^16.4.7",
+    "echarts": "^5.5.1",
+    "element-plus": "^2.9.3",
+    "express": "^4.21.2",
+    "openai": "^4.78.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "concurrently": "^9.1.2",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8"
+  }
+}
