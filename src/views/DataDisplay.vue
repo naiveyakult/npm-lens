@@ -63,8 +63,8 @@ const report = ref(null)
 const loading = ref(false)
 const error = ref('')
 
-const filteredGraph = computed(() => getChartData(keyword.value))
-const summary = computed(() => summarizeGraph(graph.value))
+const filteredGraph = computed(() => getChartData(keyword.value, depth.value))
+const summary = computed(() => summarizeGraph(filteredGraph.value))
 const topLicense = computed(() => summary.value.topLicenses[0]?.license || 'unknown')
 const displayTargetPath = computed(() => targetPath.value || summary.value.project?.root || '当前项目')
 

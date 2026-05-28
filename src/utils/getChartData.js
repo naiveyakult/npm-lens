@@ -7,14 +7,15 @@ function clone(value) {
   return JSON.parse(JSON.stringify(value || {}))
 }
 
-function filterTree(tree, keyword) {
+function filterTree(tree, keyword, maxDepth = Infinity) {
   const normalized = keyword.trim().toLowerCase()
+  const depthLimit = Number.isFinite(Number(maxDepth)) ? Number(maxDepth) : Infinity
 
-  if (!normalized) {
+  if (!normalized && depthLimit === Infinity) {
     return clone(tree)
   }
 
-  function filterNode(node) {
+  function filterNode(node, depth) {
     const result = {}
 
     for (const [key, value] of Object.entries(node || {})) {
@@ -23,10 +24,15 @@ function filterTree(tree, keyword) {
         continue
       }
 
-      const child = filterNode(value)
-      const matches = key.toLowerCase().includes(normalized)
+      if (depth > depthLimit) {
+        continue
+      }
 
-      if (matches || Object.keys(child).some((childKey) => !childKey.startsWith('$'))) {
+      const child = filterNode(value, depth + 1)
+      const matches = key.toLowerCase().includes(normalized)
+      const hasMatchedChild = Object.keys(child).some((childKey) => !childKey.startsWith('$'))
+
+      if (!normalized || matches || hasMatchedChild) {
         result[key] = Object.keys(child).length > 0 ? child : value
       }
     }
@@ -34,11 +40,11 @@ function filterTree(tree, keyword) {
     return result
   }
 
-  return filterNode(tree)
+  return filterNode(tree, 1)
 }
 
-export function getChartData(keyword = '') {
-  return filterTree(graphData.value, keyword)
+export function getChartData(keyword = '', maxDepth = Infinity) {
+  return filterTree(graphData.value, keyword, maxDepth)
 }
 
 export function setChartData(nextGraph) {
